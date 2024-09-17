@@ -87,14 +87,4 @@ class PriorityQueue {
   }
 }
 
-const q = new PriorityQueue();
-
-q.enqueue(10, 10);
-q.enqueue(9, 9);
-q.enqueue(2, 2);
-q.enqueue(3, 3);
-q.enqueue(0, 0);
-q.dequeue();
-q.dequeue();
-
-console.log(q.values);
+module.exports = PriorityQueue;

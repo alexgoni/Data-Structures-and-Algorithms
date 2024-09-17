@@ -80,15 +80,3 @@ class MaxBinaryHeap {
     }
   }
 }
-
-const heap = new MaxBinaryHeap();
-
-heap.insert(110);
-heap.insert(10);
-heap.insert(12);
-heap.insert(13);
-heap.insert(14);
-heap.insert(15);
-
-console.log(heap.extractMax());
-console.log(heap.extractMax());
